@@ -61,7 +61,10 @@ function reviewCreateCtrl($scope, $http, $location, liveFactory){
       $location.path('/artist/' + $scope.review.artistName);
     });
   };
-
+  
+  /**
+   * Reimplement live video reviews?
+   */
 }
 
 angular.module('liveApp')
